@@ -33,3 +33,24 @@
     margin-top: 15px;
     cursor: pointer;
 }
+
+.postdate {
+    font-family: 'Labrada', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.postdesc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 22px;
+    margin-top: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
